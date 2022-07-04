@@ -164,7 +164,7 @@
                 new Waline({
                     el: "#waline",
                     
-                    path: comment,
+                    path: window.location.pathname,
                     
                     serverURL: https://comment.ritie-jonie.xyz/,
                     
@@ -174,13 +174,21 @@
                     
                     meta: nick,mail,link,
                     
-                    requiredFields: nick,mail,
+                    requiredFields: nick,
                     
                     avatar: robohash,
                     
                     avatarCDN: https://sdn.geekzu.org/avatar/,
                     
                     pageSize: 10,
+                    
+                    wordLimit: 0,
+                    
+                    visitor: true,
+                    
+                    dark: auto,
+                    
+                    copyright: false,
                     
                 });
             </script>
