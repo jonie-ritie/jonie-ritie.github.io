@@ -10,7 +10,7 @@
   
   <title>Hello World - Jonie &amp; Ritie</title>
   
-    <link rel="shortcut icon" href="/sleepyStitch.png">
+    <link rel="shortcut icon" href="/img/stitch_sleepy.png">
   
   
     <link rel='manifest' href='/manifest.json'>
@@ -152,47 +152,49 @@
         <h1>About this Post</h1>
         <div class="details">
             
-            <p>This post is written by Jiannan Lu, licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc/4.0">CC BY-NC 4.0</a>.</p>
+            <p>This post is written by Jonas & Rita, licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc/4.0">CC BY-NC 4.0</a>.</p>
         </div>
     </div>
 
     
         
-        <div class="container">
-            <div id="waline"></div>
-            <script>
-                new Waline({
-                    el: "#waline",
-                    
-                    path: window.location.pathname,
-                    
-                    serverURL: https://comment.ritie-jonie.xyz/,
-                    
-                    lang: zh-CN,
-                    
-                    placeholder: We are waiting for you : ),
-                    
-                    meta: nick,mail,link,
-                    
-                    requiredFields: nick,
-                    
-                    avatar: robohash,
-                    
-                    avatarCDN: https://sdn.geekzu.org/avatar/,
-                    
-                    pageSize: 10,
-                    
-                    wordLimit: 0,
-                    
-                    visitor: true,
-                    
-                    dark: auto,
-                    
-                    copyright: false,
-                    
-                });
-            </script>
-        </div>
+            <div class="container">
+                <div id="waline"></div>
+                <script src="https://unpkg.com/@waline/client/dist/waline.js"/>
+                <link href="https://unpkg.com/@waline/client/dist/waline.css" rel="stylesheet">
+                <script>
+                    Waline.init({
+                        el: "#waline",
+                        
+                        serverURL: https://waline-r4qhtn3is-jonie-ritie.vercel.app,
+                        
+                        lang: zh-cn,
+                        
+                        placeholder: 要文明评论哦, 不然会被打屁屁,
+                        
+                        meta: nick,mail,link,
+                        
+                        requiredFields: nick,
+                        
+                        avatar: robohash,
+                        
+                        avatarCDN: https://sdn.geekzu.org/avatar/,
+                        
+                        pageSize: 10,
+                        
+                        wordLimit: 0,
+                        
+                        visitor: false,
+                        
+                        dark: auto,
+                        
+                        copyright: false,
+                        
+                        path: window.location.pathname.replace(/\/$/,''),
+                        
+                    });
+                </script>
+            </div>
         
         
     
@@ -202,7 +204,7 @@
 <!--        <div class="links">-->
 <!--            -->
 <!--        </div>-->
-        <span>&copy; 2022 Jiannan Lu<br >Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> </span>
+        <span>&copy; 2022 Jonas &amp; Rita<br >Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> </span>
         
             <br>
             <div class="color-scheme-toggle" role="radiogroup" id="theme-color-scheme-toggle" style="border: none">
