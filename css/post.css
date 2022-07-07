@@ -225,7 +225,7 @@ blockquote.quote-card :after {
   height: 300px;
   margin: 40px auto 50px auto;
   position: relative;
-  width: 450px;
+  max-width: 450px;
 }
 
 .artboard {
