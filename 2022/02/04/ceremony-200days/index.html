@@ -64,11 +64,14 @@
 
   <!-- waline comment -->
   
-    <script src='//cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js'></script>
+    <script src='//unpkg.com/@waline/client@v2/dist/waline.js'></script>
+    <link href='//unpkg.com/@waline/client@v2/dist/waline.css' rel='stylesheet' />
   
 
   <!-- trigger css while scroll -->
-  <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+  
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+  
 <meta name="generator" content="Hexo 5.4.2"></head>
     <body
         data-color-scheme="auto"
@@ -97,6 +100,10 @@
             
             
             <a class="nav-item" href="/about">About</a>
+            
+            
+            
+            <a class="nav-item" href="/comments">Comments</a>
             
             
             
@@ -139,13 +146,14 @@
         <h2 class="title">💕 我们两百天啦</h2>
     </div>
 
-    <div class="divider"></div>
+    
+        <div class="divider"></div>
+    
 
     <div class="content">
         <br>
-<blockquote>
-    <h2 align="center"><span style="color: var(--pink-purple); margin: 18px">每一个木偶人都要在钟点相遇<br></span></h2>
-    <h2 align="center"><span style="color: var(--pink-purple); margin: 18px">爱本身就是一件很纯粹的事 一辈子太短 全是感情 没有技巧<br></span></h2>
+<blockquote class="quote-card">
+    <p>每一个木偶人都要在钟点相遇<br>爱本身就是一件很纯粹的事 一辈子太短 全是感情 没有技巧</p>
 </blockquote>
 <br><br>
 
@@ -157,25 +165,33 @@
         ScrollReveal().reveal('.content',{ delay: 100});
     </script>
 
-    <div class="about">
-        <h1>About this Post</h1>
-        <div class="details">
-            
-            <p>This post is written by Jonas & Rita, licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc/4.0">CC BY-NC 4.0</a>.</p>
+    
+        <div class="about">
+            <h1>About this Post</h1>
+            <div class="details">
+                
+                <p>This post is written by Jonas & Rita, licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc/4.0">CC BY-NC 4.0</a>.</p>
+            </div>
         </div>
-    </div>
+    
 
     
         
             <div class="container">
                 <div id="waline"></div>
                 <script>
-                    new Waline({
+                    Waline.init({
                         el: "#waline",
                         
                         serverURL: 'https://comment.ritie-jonie.xyz/',
                         
                         path: window.location.pathname.replace(/\/$/,''),
+                        
+                        copyright: false,
+                        
+                        dark: false,
+                        
+                        comment: true,
                         
                     });
                 </script>
