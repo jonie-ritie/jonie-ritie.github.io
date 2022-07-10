@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
   <meta name="color-scheme" content="light dark">
   
-  <title>Friends - Jonie &amp; Ritie</title>
+  <title>Version - Jonie &amp; Ritie</title>
   
     <link rel="shortcut icon" href="https://ritie-jonie-1312559530.cos.ap-nanjing.myqcloud.com/favicon/stitch_sleepy.png">
   
@@ -144,7 +144,7 @@
 
         
 
-        <h2 class="title">Friends</h2>
+        <h2 class="title">Version</h2>
     </div>
 
     
@@ -152,22 +152,14 @@
     
 
     <div class="content">
-        <h2 id="Us"><a href="#Us" class="headerlink" title="Us"></a>Us</h2><div class="container">
-    <div class="card" style="display: grid; grid-template-columns: minmax(128px, 10%) 1fr; padding: 8px 16px; ">
-        <img src="https://ritie-jonie-1312559530.cos.ap-nanjing.myqcloud.com/favicon/stitch_sleepy.png" alt="Jonie & Ritie ' logo" style="height: 100%; object-fit: contain;">
-        <div>
-            <h1>Jonas & Rita</h1>
-            <p>We are modern cheesy lovers, dreaming to have a house of our own, working on it, and sharing the scenery along the way there.<br/><br/><b>Status:</b><br/>Jonas's currently doing an internship while Rita's enjoying her first-year summer vacation.<br></p>
-            <div class="actions">
-                <div class="right">
-                    <a class="action-button-primary" href="mailto:2465373218@qq.com">Email us</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<h2 id="Friends"><a href="#Friends" class="headerlink" title="Friends"></a>Friends</h2><p>Currently no friend-links</p>
+        <h2 id="Version-0-1"><a href="#Version-0-1" class="headerlink" title="Version 0.1:"></a>Version 0.1:</h2><h4 id="1-基础设置修改"><a href="#1-基础设置修改" class="headerlink" title="1. 基础设置修改"></a>1. 基础设置修改</h4><p>采用 rainbow banner<br>修改网页名称，作者，github discord 链接<br>新增导航栏 QQ群 链接，及 Email 链接<br>完善 Friends 页，About页<br>新增 Comments 页</p>
+<h4 id="2-ScrollReveal-全局实现"><a href="#2-ScrollReveal-全局实现" class="headerlink" title="2. ScrollReveal 全局实现"></a>2. ScrollReveal 全局实现</h4><p>实现博客主页文字，post 列表卡片，以及 post 内容滑动载入动效<br>BUG - ScrollReveal 与 css transform冲突，如果想要鼠标悬停卡片时上移，请在 index&amp;archive.ejs 中注释掉 ScrollReveal</p>
+<h4 id="3-Post-List-修改样式"><a href="#3-Post-List-修改样式" class="headerlink" title="3. Post List 修改样式"></a>3. Post List 修改样式</h4><p>实现 post 列表卡片在鼠标悬停时的阴影以及动效</p>
+<h4 id="4-Comments-页以及各-Post-页新增-Waline-评论区"><a href="#4-Comments-页以及各-Post-页新增-Waline-评论区" class="headerlink" title="4. Comments 页以及各 Post 页新增 Waline 评论区"></a>4. Comments 页以及各 Post 页新增 Waline 评论区</h4><p>配置 _config.yml 以及 waline.css<br>实现评论区用户活跃标签以及评论数统计</p>
+<h4 id="5-Comments-页添加时间小猫-css-动效-self-time-cat-css"><a href="#5-Comments-页添加时间小猫-css-动效-self-time-cat-css" class="headerlink" title="5. Comments 页添加时间小猫 css 动效 (self-time-cat.css)"></a>5. Comments 页添加时间小猫 css 动效 (self-time-cat.css)</h4><p>新增 self-time-cat.css<br>直接导入于 head.ejs<br>修改页面布局使评论区位于页面第二部分（时间猫和标题占据初始页面所有屏幕）</p>
+<h4 id="6-Comments-页以及各-Post-页添加返回顶部按钮-self-return-to-top-css"><a href="#6-Comments-页以及各-Post-页添加返回顶部按钮-self-return-to-top-css" class="headerlink" title="6. Comments 页以及各 Post 页添加返回顶部按钮 (self-return-to-top.css)"></a>6. Comments 页以及各 Post 页添加返回顶部按钮 (self-return-to-top.css)</h4><p>新增 return-to-top.css<br>使用 @import 挂载于 components.css 以便全局使用，main.js中新增滚动监听<br>实现按钮默认消失，滚动至页面高度一半时出现，点击后平滑滚动至顶部，按钮居于网页图层顶层</p>
+<h4 id="7-footer-页脚"><a href="#7-footer-页脚" class="headerlink" title="7. footer 页脚"></a>7. footer 页脚</h4><p>取消页脚目录<br>修改页脚及页脚内 color theme 样式</p>
+<h4 id="8-Version-页"><a href="#8-Version-页" class="headerlink" title="8. Version 页"></a>8. Version 页</h4><p>新增 Version 页面记录所有版本迭代信息</p>
 
     </div>
     <script>

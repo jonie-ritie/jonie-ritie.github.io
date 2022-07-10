@@ -11,6 +11,24 @@
   </url>
   
   <url>
+    <loc>https://www.ritie-jonie.xyz/version/index.html</loc>
+    
+    <lastmod>2022-07-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ritie-jonie.xyz/friends/index.html</loc>
+    
+    <lastmod>2022-07-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.ritie-jonie.xyz/2022/05/15/ceremony-300days/</loc>
     
     <lastmod>2022-07-07</lastmod>
@@ -32,15 +50,6 @@
     <loc>https://www.ritie-jonie.xyz/2021/10/27/ceremony-100days/</loc>
     
     <lastmod>2022-07-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.ritie-jonie.xyz/friends/index.html</loc>
-    
-    <lastmod>2022-07-06</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
