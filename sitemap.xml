@@ -4,6 +4,33 @@
   <url>
     <loc>https://www.ritie-jonie.xyz/version/index.html</loc>
     
+    <lastmod>2022-07-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ritie-jonie.xyz/friends/index.html</loc>
+    
+    <lastmod>2022-07-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ritie-jonie.xyz/about/index.html</loc>
+    
+    <lastmod>2022-07-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ritie-jonie.xyz/2021/10/27/ceremony-100days/</loc>
+    
     <lastmod>2022-07-10</lastmod>
     
     <changefreq>monthly</changefreq>
@@ -12,15 +39,6 @@
   
   <url>
     <loc>https://www.ritie-jonie.xyz/comments/index.html</loc>
-    
-    <lastmod>2022-07-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.ritie-jonie.xyz/friends/index.html</loc>
     
     <lastmod>2022-07-10</lastmod>
     
@@ -47,24 +65,6 @@
   </url>
   
   <url>
-    <loc>https://www.ritie-jonie.xyz/2021/10/27/ceremony-100days/</loc>
-    
-    <lastmod>2022-07-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.ritie-jonie.xyz/about/index.html</loc>
-    
-    <lastmod>2022-07-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://www.ritie-jonie.xyz/manifest.json</loc>
     
     <lastmod>2022-07-05</lastmod>
@@ -76,7 +76,7 @@
 
   <url>
     <loc>https://www.ritie-jonie.xyz/</loc>
-    <lastmod>2022-07-10</lastmod>
+    <lastmod>2022-07-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -86,7 +86,7 @@
   
   <url>
     <loc>https://www.ritie-jonie.xyz/categories/Anniversary/</loc>
-    <lastmod>2022-07-10</lastmod>
+    <lastmod>2022-07-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
