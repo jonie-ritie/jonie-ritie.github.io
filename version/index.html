@@ -160,7 +160,9 @@
 <h4 id="6-Version-页"><a href="#6-Version-页" class="headerlink" title="6. Version 页"></a>6. Version 页</h4><p>新增 Version 页面记录所有版本迭代信息<br><br></p>
 <h2 id="Version-0-2"><a href="#Version-0-2" class="headerlink" title="Version 0.2:"></a>Version 0.2:</h2><h4 id="1-Comments-页添加时间小猫-css-动效-self-time-cat-css"><a href="#1-Comments-页添加时间小猫-css-动效-self-time-cat-css" class="headerlink" title="1. Comments 页添加时间小猫 css 动效 (self-time-cat.css)"></a>1. Comments 页添加时间小猫 css 动效 (self-time-cat.css)</h4><p>新增 self-time-cat.css<br>直接导入于 head.ejs<br>修改页面布局使评论区位于页面第二部分（时间猫和标题占据初始页面所有屏幕）<br>新增根据当地时间设置时间小猫的画面</p>
 <h4 id="2-Comments-页以及各-Post-页添加返回顶部按钮-self-return-to-top-css"><a href="#2-Comments-页以及各-Post-页添加返回顶部按钮-self-return-to-top-css" class="headerlink" title="2. Comments 页以及各 Post 页添加返回顶部按钮 (self-return-to-top.css)"></a>2. Comments 页以及各 Post 页添加返回顶部按钮 (self-return-to-top.css)</h4><p>新增 self-return-to-top.css<br>使用 @import 挂载于 components.css 以便全局使用，main.js中新增滚动监听<br>实现按钮默认消失，滚动至页面高度一半时出现，点击后平滑滚动至顶部，按钮居于网页图层顶层</p>
-<h4 id="3-Post-文章页以及-Version-版本页新增阅读进度条（右上角）"><a href="#3-Post-文章页以及-Version-版本页新增阅读进度条（右上角）" class="headerlink" title="3. Post 文章页以及 Version 版本页新增阅读进度条（右上角）"></a>3. Post 文章页以及 Version 版本页新增阅读进度条（右上角）</h4><p>新增 self-scroll-progress.css<br>使用 @import 挂载于 post.css，main.js中新增滚动监听</p>
+<h4 id="3-Post-文章页以及-Version-版本页新增阅读进度条（右上角）"><a href="#3-Post-文章页以及-Version-版本页新增阅读进度条（右上角）" class="headerlink" title="3. Post 文章页以及 Version 版本页新增阅读进度条（右上角）"></a>3. Post 文章页以及 Version 版本页新增阅读进度条（右上角）</h4><p>新增 self-scroll-progress.css<br>使用 @import 挂载于 post.css，main.js 中新增滚动监听</p>
+<h4 id="4-Nav-顶部导航栏以及-Footer-增加鼠标悬停提示"><a href="#4-Nav-顶部导航栏以及-Footer-增加鼠标悬停提示" class="headerlink" title="4. Nav 顶部导航栏以及 Footer 增加鼠标悬停提示"></a>4. Nav 顶部导航栏以及 Footer 增加鼠标悬停提示</h4><p>新增 nav.css, footer.css 中鼠标 hover 后灰色阴影</p>
+<h4 id="5-Post-文章页每篇文章最下方新增-”前一篇“-”后一篇“-的导航"><a href="#5-Post-文章页每篇文章最下方新增-”前一篇“-”后一篇“-的导航" class="headerlink" title="5. Post 文章页每篇文章最下方新增 ”前一篇“ ”后一篇“ 的导航"></a>5. Post 文章页每篇文章最下方新增 ”前一篇“ ”后一篇“ 的导航</h4><p>新增 self-post-nav.css<br>使用 @import 挂载于 post.css, post.ejs 中设置相关参数<br>以 Themes cards 为模板，新增前后篇导航</p>
 
     </div>
     <script>
@@ -174,11 +176,17 @@
     
         <div id="percentage">
             <div class="fill"></div>
-            0%
         </div>
     
 
     
+
+    <div class="container">
+        <div class="post-nav">
+            
+            
+        </div>
+    </div>
 
     
 </article>
@@ -193,15 +201,15 @@
             <div class="color-scheme-toggle" role="radiogroup" id="theme-color-scheme-toggle" >
                 <label>
                     <input type="radio" value="light">
-                    <span style="color: var(--pink-purple)"><strong>Light</strong></span>
+                    <span style="color: var(--pink-purple)">Light</span>
                 </label>
                 <label>
                     <input type="radio" value="dark">
-                    <span style="color: var(--pink-purple)"><strong>Dark</strong></span>
+                    <span style="color: var(--pink-purple)">Dark</span>
                 </label>
                 <label>
                     <input type="radio" value="auto">
-                    <span style="color: var(--pink-purple)"><strong>Auto</strong></span>
+                    <span style="color: var(--pink-purple)">Auto</span>
                 </label>
             </div>
         
