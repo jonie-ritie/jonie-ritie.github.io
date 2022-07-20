@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.ritie-jonie.xyz/2021/08/01/summary-202107/</loc>
+    
+    <lastmod>2022-07-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.ritie-jonie.xyz/2022/07/19/ceremony-1year/</loc>
+    
+    <lastmod>2022-07-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.ritie-jonie.xyz/2022/02/04/ceremony-200days/</loc>
     
     <lastmod>2022-07-16</lastmod>
@@ -76,7 +94,7 @@
 
   <url>
     <loc>https://www.ritie-jonie.xyz/</loc>
-    <lastmod>2022-07-17</lastmod>
+    <lastmod>2022-07-20</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -86,7 +104,7 @@
   
   <url>
     <loc>https://www.ritie-jonie.xyz/categories/Anniversary/</loc>
-    <lastmod>2022-07-17</lastmod>
+    <lastmod>2022-07-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
