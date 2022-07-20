@@ -1,4 +1,4 @@
-https://www.ritie-jonie.xyz/2021/08/01/summary-202107/
+https://www.ritie-jonie.xyz/2021/09/01/summary-202107/
 https://www.ritie-jonie.xyz/2022/07/19/ceremony-1year/
 https://www.ritie-jonie.xyz/2022/02/04/ceremony-200days/
 https://www.ritie-jonie.xyz/version/index.html
@@ -10,3 +10,4 @@ https://www.ritie-jonie.xyz/manifest.json
 https://www.ritie-jonie.xyz/2022/05/15/ceremony-300days/
 https://www.ritie-jonie.xyz/
 https://www.ritie-jonie.xyz/categories/Anniversary/
+https://www.ritie-jonie.xyz/categories/Retrospect/
