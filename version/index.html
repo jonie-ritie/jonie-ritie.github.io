@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <meta name="color-scheme" content="light dark">
+  
+  <title>Version - Jonie &amp; Ritie</title>
+  
+    <link rel="shortcut icon" href="https://ritie-jonie-1312559530.cos.ap-nanjing.myqcloud.com/favicon/stitch_sleepy.png">
+  
+  
+    <link rel='manifest' href='/manifest.json'>
+  
+
+  
+<link rel="stylesheet" href="/css/var.css">
+
+  
+<link rel="stylesheet" href="/css/main.css">
+
+  
+<link rel="stylesheet" href="/css/typography.css">
+
+  
+<link rel="stylesheet" href="/css/code-highlighting.css">
+
+  
+<link rel="stylesheet" href="/css/components.css">
+
+  
+<link rel="stylesheet" href="/css/nav.css">
+
+  
+<link rel="stylesheet" href="/css/paginator.css">
+
+  
+<link rel="stylesheet" href="/css/footer.css">
+
+  
+<link rel="stylesheet" href="/css/post-list.css">
+
+  
+  
+<link rel="stylesheet" href="/css/rainbow-banner.css">
+
+  
+  
+  
+  
+    
+<link rel="stylesheet" href="/css/post.css">
+
+    
+<link rel="stylesheet" href="/css/self-time-cat.css">
+
+  
+  
+
+  <!-- waline comment -->
+  
+    <script src='https://unpkg.com/@waline/client@v2/dist/waline.js'></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@waline/client@v2/dist/waline.css"
+    />
+  
+
+  <!-- trigger css while scroll -->
+  
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+  
+
+  <!-- back to top button -->
+  <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+  <!-- jQuery -->
+  <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+
+  <!-- busuanzi -->
+  
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  
+<meta name="generator" content="Hexo 5.4.2"></head>
+    <body
+        data-color-scheme="auto"
+        
+        data-rainbow-banner="true"
+        data-rainbow-banner-shown="always"
+        data-rainbow-banner-month="6"
+        data-rainbow-banner-colors="#e50000,#ff8d00,#ffee00,#008121,#004cff,#760188"
+        
+        data-config-root="/"
+    >
+        <nav id="theme-nav">
+    <div class="inner">
+        <a class="title" href="/">BLOGS</a>
+        <div class="nav-arrow"></div>
+        <div class="nav-items">
+            <a class="nav-item nav-item-home" href="/">Home</a>
+            
+            
+            <a class="nav-item" href="/archives">Archives</a>
+            
+            
+            
+            <a class="nav-item" href="/friends">Friends</a>
+            
+            
+            
+            <a class="nav-item" href="/about">About</a>
+            
+            
+            
+            <a class="nav-item" href="/version">Version</a>
+            
+            
+            
+            <a class="nav-item" href="/comments">Comments</a>
+            
+            
+            
+            <a class="nav-item nav-item-github nav-item-icon" href="https://github.com/jonie-ritie" target="_blank">&nbsp;</a>
+            
+            
+            
+            <a class="nav-item nav-item-discord nav-item-icon" href="https://discord.gg/HsKMJdRc" target="_blank">&nbsp;</a>
+            
+            
+            
+            <a class="nav-item nav-item-qq nav-item-icon" href="https://jq.qq.com/?_wv=1027&k=2fatNYU9" target="_blank">&nbsp;</a>
+            
+            
+            
+            <a class="nav-item nav-item-email nav-item-icon" href="mailto:2465373218@qq.com" target="_blank">&nbsp;</a>
+            
+            
+        </div>
+    </div>
+</nav>
+        <article class="post">
+    <div class="meta">
+        
+
+        
+
+        <h2 class="title">Version</h2>
+    </div>
+
+    
+        <div class="divider"></div>
+    
+
+    <div class="content">
+        <h2 id="Version-0-1"><a href="#Version-0-1" class="headerlink" title="Version 0.1:"></a>Version 0.1:</h2><h4 id="1-基础设置修改"><a href="#1-基础设置修改" class="headerlink" title="1. 基础设置修改"></a>1. 基础设置修改</h4><p>采用 rainbow banner<br>修改网页名称，作者，github discord 链接<br>新增导航栏 QQ群 链接，及 Email 链接<br>完善 Friends 页，About页<br>新增 Comments 页</p>
+<h4 id="2-ScrollReveal-全局实现"><a href="#2-ScrollReveal-全局实现" class="headerlink" title="2. ScrollReveal 全局实现"></a>2. ScrollReveal 全局实现</h4><p>实现博客主页文字，post 列表卡片，以及 post 内容滑动载入动效<br>BUG - ScrollReveal 与 css transform冲突，如果想要鼠标悬停卡片时上移，请在 index&amp;archive.ejs 中注释掉 ScrollReveal</p>
+<h4 id="3-Post-List-修改样式"><a href="#3-Post-List-修改样式" class="headerlink" title="3. Post List 修改样式"></a>3. Post List 修改样式</h4><p>实现 post 列表卡片在鼠标悬停时的阴影以及动效</p>
+<h4 id="4-Comments-页以及各-Post-页新增-Waline-评论区"><a href="#4-Comments-页以及各-Post-页新增-Waline-评论区" class="headerlink" title="4. Comments 页以及各 Post 页新增 Waline 评论区"></a>4. Comments 页以及各 Post 页新增 Waline 评论区</h4><p>配置 _config.yml 以及 waline.css<br>实现评论区用户活跃标签以及评论数统计</p>
+<h4 id="5-footer-页脚"><a href="#5-footer-页脚" class="headerlink" title="5. footer 页脚"></a>5. footer 页脚</h4><p>取消页脚目录<br>修改页脚及页脚内 color theme 样式</p>
+<h4 id="6-Version-页"><a href="#6-Version-页" class="headerlink" title="6. Version 页"></a>6. Version 页</h4><p>新增 Version 页面记录所有版本迭代信息<br><br></p>
+<h2 id="Version-0-2"><a href="#Version-0-2" class="headerlink" title="Version 0.2:"></a>Version 0.2:</h2><h4 id="1-Comments-页添加时间小猫-css-动效-self-time-cat-css"><a href="#1-Comments-页添加时间小猫-css-动效-self-time-cat-css" class="headerlink" title="1. Comments 页添加时间小猫 css 动效 (self-time-cat.css)"></a>1. Comments 页添加时间小猫 css 动效 (self-time-cat.css)</h4><p>新增 self-time-cat.css<br>直接导入于 head.ejs<br>修改页面布局使评论区位于页面第二部分（时间猫和标题占据初始页面所有屏幕）<br>新增根据当地时间设置时间小猫的画面</p>
+<h4 id="2-Comments-页以及各-Post-页添加返回顶部按钮-self-return-to-top-css"><a href="#2-Comments-页以及各-Post-页添加返回顶部按钮-self-return-to-top-css" class="headerlink" title="2. Comments 页以及各 Post 页添加返回顶部按钮 (self-return-to-top.css)"></a>2. Comments 页以及各 Post 页添加返回顶部按钮 (self-return-to-top.css)</h4><p>新增 self-return-to-top.css<br>使用 @import 挂载于 components.css 以便全局使用，main.js中新增滚动监听<br>实现按钮默认消失，滚动至页面高度一半时出现，点击后平滑滚动至顶部，按钮居于网页图层顶层</p>
+<h4 id="3-Post-文章页以及-Version-版本页新增阅读进度条（右上角）"><a href="#3-Post-文章页以及-Version-版本页新增阅读进度条（右上角）" class="headerlink" title="3. Post 文章页以及 Version 版本页新增阅读进度条（右上角）"></a>3. Post 文章页以及 Version 版本页新增阅读进度条（右上角）</h4><p>新增 self-scroll-progress.css<br>使用 @import 挂载于 post.css，main.js 中新增滚动监听</p>
+<h4 id="4-Nav-顶部导航栏以及-Footer-增加鼠标悬停提示"><a href="#4-Nav-顶部导航栏以及-Footer-增加鼠标悬停提示" class="headerlink" title="4. Nav 顶部导航栏以及 Footer 增加鼠标悬停提示"></a>4. Nav 顶部导航栏以及 Footer 增加鼠标悬停提示</h4><p>新增 nav.css, footer.css 中鼠标 hover 后灰色阴影</p>
+<h4 id="5-Post-文章页每篇文章最下方新增-”前一篇“-”后一篇“-的导航"><a href="#5-Post-文章页每篇文章最下方新增-”前一篇“-”后一篇“-的导航" class="headerlink" title="5. Post 文章页每篇文章最下方新增 ”前一篇“ ”后一篇“ 的导航"></a>5. Post 文章页每篇文章最下方新增 ”前一篇“ ”后一篇“ 的导航</h4><p>新增 self-post-nav.css<br>使用 @import 挂载于 post.css, post.ejs 中设置相关参数<br>以 Themes cards 为模板，新增前后篇导航<br><br></p>
+<h2 id="Version-0-3"><a href="#Version-0-3" class="headerlink" title="Version 0.3:"></a>Version 0.3:</h2><h4 id="1-Waline-新增明暗主题适配"><a href="#1-Waline-新增明暗主题适配" class="headerlink" title="1. Waline 新增明暗主题适配"></a>1. Waline 新增明暗主题适配</h4><p>修改 main.js 以及 waline 配置，实现 waline 评论区明暗切换</p>
+
+    </div>
+    <script>
+        ScrollReveal().reveal('.content',{ delay: 100});
+    </script>
+
+    <a id="return-to-top">
+        <i class="icon-chevron-up"></i>
+    </a>
+
+    
+        <div id="percentage">
+            <div class="fill"></div>
+        </div>
+    
+
+    
+
+    <div class="container">
+        <div class="post-nav">
+            
+            
+        </div>
+    </div>
+
+    
+</article>
+        <footer>
+    <div class="inner" style="text-align:center">
+<!--        <div class="links">-->
+<!--            -->
+<!--        </div>-->
+        
+            <div class="container" style="margin-bottom: 10px">
+                <span id="busuanzi_container_site_uv">
+                    <span id="busuanzi_value_site_uv"></span>&nbsp;Viewers&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+                </span>
+                <span id="busuanzi_container_site_pv">
+                    <span id="busuanzi_value_site_pv"></span>&nbsp;Views
+                </span>
+            </div>
+        
+
+        <span>Copyright &copy; 2022 Jonas &amp; Rita</span>
+
+        
+            <br>
+            <div class="color-scheme-toggle" role="radiogroup" id="theme-color-scheme-toggle" >
+                <label>
+                    <input type="radio" value="light">
+                    <span style="color: var(--pink-purple)">Light</span>
+                </label>
+                <label>
+                    <input type="radio" value="dark">
+                    <span style="color: var(--pink-purple)">Dark</span>
+                </label>
+                <label>
+                    <input type="radio" value="auto">
+                    <span style="color: var(--pink-purple)">Auto</span>
+                </label>
+            </div>
+        
+    </div>
+</footer>
+
+
+        
+<script src="/js/main.js"></script>
+
+        
+        
+    </body>
+</html>
