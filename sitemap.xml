@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.ritie-jonie.xyz/2022/09/01/summary-2022summer/</loc>
+    
+    <lastmod>2022-07-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.ritie-jonie.xyz/2022/05/15/ceremony-300days/</loc>
     
     <lastmod>2022-07-26</lastmod>
@@ -66,15 +75,6 @@
   
   <url>
     <loc>https://www.ritie-jonie.xyz/2022/06/01/summary-2022spring/</loc>
-    
-    <lastmod>2022-07-26</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.ritie-jonie.xyz/2022/09/01/summary-2022summer/</loc>
     
     <lastmod>2022-07-26</lastmod>
     
