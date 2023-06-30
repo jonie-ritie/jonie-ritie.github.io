@@ -49,11 +49,6 @@
 
   
   
-<link rel="stylesheet" href="/css/waline.css">
-
-  
-<link rel="stylesheet" href="/css/giscus.css">
-
   
   
     
@@ -67,8 +62,11 @@
 
   <!-- waline comment -->
   
-    <script src='//unpkg.com/@waline/client@v2/dist/waline.js'></script>
-    <link href='//unpkg.com/@waline/client@v2/dist/waline.css' rel='stylesheet' />
+    <script src='https://unpkg.com/@waline/client@v2/dist/waline.js'></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@waline/client@v2/dist/waline.css"
+    />
   
 
   <!-- trigger css while scroll -->
@@ -81,6 +79,11 @@
 
   <!-- jQuery -->
   <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+
+  <!-- busuanzi -->
+  
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  
 <meta name="generator" content="Hexo 5.4.2"></head>
     <body
         data-color-scheme="auto"
@@ -99,45 +102,54 @@
         <div class="nav-items">
             <a class="nav-item nav-item-home" href="/">Home</a>
             
+                
+                    <a class="nav-item" href="/archives">Archives</a>
+                
             
-            <a class="nav-item" href="/archives">Archives</a>
+                
+                    <a class="nav-item" href="/friends">Friends</a>
+                
             
+                
+                    <a class="nav-item" href="/about">About</a>
+                
             
+                
+                    <a class="nav-item" href="/version">Version</a>
+                
             
-            <a class="nav-item" href="/friends">Friends</a>
+                
+                    <a class="nav-item" href="/comments">Comments</a>
+                
             
+                
+                    <a class="nav-item nav-item-github nav-item-icon" href="https://github.com/jonie-ritie" target="_blank">&nbsp;</a>
+                
             
+                
+                    <a class="nav-item nav-item-discord nav-item-icon" href="https://discord.gg/HsKMJdRc" target="_blank">&nbsp;</a>
+                
             
-            <a class="nav-item" href="/about">About</a>
+                
+                    <a class="nav-item nav-item-qq nav-item-icon" href="https://jq.qq.com/?_wv=1027&k=2fatNYU9" target="_blank">&nbsp;</a>
+                
             
+                
+                    <div class="nav-item nav-item-miniprogram nav-item-icon" id="sunCodeIcon">&nbsp;</div>
+                
             
-            
-            <a class="nav-item" href="/version">Version</a>
-            
-            
-            
-            <a class="nav-item" href="/comments">Comments</a>
-            
-            
-            
-            <a class="nav-item nav-item-github nav-item-icon" href="https://github.com/jonie-ritie" target="_blank">&nbsp;</a>
-            
-            
-            
-            <a class="nav-item nav-item-discord nav-item-icon" href="https://discord.gg/HsKMJdRc" target="_blank">&nbsp;</a>
-            
-            
-            
-            <a class="nav-item nav-item-qq nav-item-icon" href="https://jq.qq.com/?_wv=1027&k=2fatNYU9" target="_blank">&nbsp;</a>
-            
-            
-            
-            <a class="nav-item nav-item-email nav-item-icon" href="mailto:2465373218@qq.com" target="_blank">&nbsp;</a>
-            
+                
+                    <a class="nav-item nav-item-email nav-item-icon" href="mailto:2465373218@qq.com" target="_blank">&nbsp;</a>
+                
             
         </div>
     </div>
 </nav>
+
+<div class="preview-container" id="suncodeContainer">
+    <img src="https://ritie-jonie-1312559530.cos.ap-nanjing.myqcloud.com/miniprogram/miniprogram-suncode.jpg" alt="Wechat Miniprogram Code">
+</div>
+<script type="text/javascript" src="/js/self-miniprogram-code.js"></script>
         <article class="post">
     <div class="meta">
         
@@ -145,6 +157,7 @@
         
 
         <h2 class="title"></h2>
+
     </div>
 
     
@@ -274,6 +287,7 @@
     <a id="return-to-top">
         <i class="icon-chevron-up"></i>
     </a>
+    <script type="text/javascript" src="/js/self-return-to-top.js"></script>
 
     
 
@@ -300,9 +314,15 @@
                         
                         copyright: false,
                         
-                        dark: false,
+                        dark: 'body[data-current-color-scheme="dark"]',
                         
                         comment: true,
+                        
+                        requiredMeta: ['nick','mail'],
+                        
+                        login: 'disable',
+                        
+                        emoji: ['https://unpkg.com/@waline/emojis@1.0.1/bilibili','https://unpkg.com/@waline/emojis@1.0.1/qq','https://unpkg.com/@waline/emojis@1.0.1/weibo','https://unpkg.com/@waline/emojis@1.0.1/tieba'],
                         
                     });
                 </script>
@@ -316,7 +336,19 @@
 <!--        <div class="links">-->
 <!--            -->
 <!--        </div>-->
-        <span>Copyright &copy; 2022 Jonas &amp; Rita<br >Powered by Hexo </span>
+        
+            <div class="container" style="margin-bottom: 10px">
+                <span id="busuanzi_container_site_uv">
+                    <span id="busuanzi_value_site_uv"></span>&nbsp;Viewers&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+                </span>
+                <span id="busuanzi_container_site_pv">
+                    <span id="busuanzi_value_site_pv"></span>&nbsp;Views
+                </span>
+            </div>
+        
+
+        <span>Copyright &copy; 2023 Jonas &amp; Rita</span>
+
         
             <br>
             <div class="color-scheme-toggle" role="radiogroup" id="theme-color-scheme-toggle" >
